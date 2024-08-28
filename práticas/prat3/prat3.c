@@ -2,10 +2,10 @@
 #include <limits.h>
 
 int main(){
-  printf ("tamanho do char na memória = %lu byte(s)\n"), ssizeof(char));
-   printf ("tamanho do int na memória = %lu byte(s)\n"), ssizeof(int));
-   printf ("tamanho do double na memória = %lu byte(s)\n"), ssizeof(double));
-   printf ("tamanho do void na memória = %lu byte(s)\n"), ssizeof(void));
+  printf ("tamanho do char na memória = %lu byte(s)\n"), sizeof(char));
+   printf ("tamanho do int na memória = %lu byte(s)\n"), sizeof(int));
+   printf ("tamanho do double na memória = %lu byte(s)\n"), sizeof(double));
+   printf ("tamanho do void na memória = %lu byte(s)\n"), sizeof(void));
 
   printf ("a faixa de valores do char: de %i a %i\n", CHAR_MIN, CHAR_MAX);
   printf ("a faixa de valores do int: de %i a %i\n", INT_MIN, INT_MAX);
